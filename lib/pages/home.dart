@@ -126,7 +126,7 @@ Widget containerAcaoes() {
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        // Coluna Idade telefone
+        // Coluna editar e excluir
         SizedBox(
           width: 200,
           child: Column(
@@ -161,9 +161,9 @@ Widget containerAcaoes() {
               ),
             ],
           ),
-        ), // Coluna idade telefone
+        ), // Coluna editar e excluir
 
-        // Coluna Sexo e email
+        // Coluna agendar e historico
         SizedBox(
           width: 200,
           child: Column(
@@ -199,7 +199,7 @@ Widget containerAcaoes() {
             ],
           ),
         ),
-        // Coluna Sexo e Email
+        // Coluna agendar  e historico
       ],
     ),
   );
